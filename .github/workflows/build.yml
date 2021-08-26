@@ -1,8 +1,5 @@
 name: Build artifact
-on:
-  push:
-    tags:
-      - "v*.*.*"
+on: tags
 
 jobs:
   build:
