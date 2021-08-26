@@ -12,3 +12,4 @@ jobs:
         with:
           files: |
             artifact.txt
+        if: startsWith(github.ref, 'refs/tags/')
