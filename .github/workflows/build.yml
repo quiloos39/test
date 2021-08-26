@@ -1,5 +1,5 @@
 name: Build artifact
-on: tags
+on: workflow_dispatch
 
 jobs:
   build:
